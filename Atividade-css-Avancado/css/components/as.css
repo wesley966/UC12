@@ -1,0 +1,9 @@
+a {
+  color: #d62828; /* cor do texto */
+  font-size: 18px; /* tamanho */
+  font-family: Arial, sans-serif; /* fonte */
+  font-weight: bold; /* negrito */
+  text-decoration: none; /* remove o sublinhado */
+  text-transform: uppercase; /* MAIÚSCULAS */
+  font-family: 'Poppins', sans-serif;
+}

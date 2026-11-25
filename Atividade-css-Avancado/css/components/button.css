@@ -1,0 +1,33 @@
+.botao-pizza {
+  background: linear-gradient(135deg, #d62828, #f77f00);
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(214, 40, 40, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.botao-pizza:hover {
+  background: linear-gradient(135deg, #b71c1c, #e76f00);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(214, 40, 40, 0.6);
+  font-family: 'Poppins', sans-serif;
+}
+
+.botao-pizza:active {
+  transform: scale(0.98);
+  font-family: 'Poppins', sans-serif;
+}
+
+.botao-pizza a{
+     text-decoration: none;
+     color: rgb(207, 199, 198);
+     font-family: 'Poppins', sans-serif;
+    }

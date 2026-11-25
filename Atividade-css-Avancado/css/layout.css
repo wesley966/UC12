@@ -1,0 +1,59 @@
+.cabecalho {
+    color: white;
+    width: 100%;
+    height: 200px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.apresentacao {
+    color: var(--cor-texto);
+    align-content: center;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    box-shadow: inset 0 20px 30px rgba(0, 0, 0, 0.5);
+    height: 400px;
+    box-shadow: inset 0 -15px 20px rgba(0, 0, 0, 0.4);
+}
+
+.pratos ul {
+    background-color: rgb(238, 132, 45);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.informacoes {
+    color: var(--cor-texto);
+    align-content: center;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(233, 21, 21);
+    box-shadow: inset 0 20px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 -15px 20px rgba(0, 0, 0, 0.4);
+
+}
+
+.footer {
+    color: var(--cor-texto);
+    width: 100%;
+    height: 20%;
+}
+
+.endereco {
+    align-content: center;
+    width: 100%;
+    height: 150px;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,31 @@
+* {
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+:root {
+    --cor-principal: #ff0000;
+    --cor-fundo: #f5f5f5;
+    --cor-texto: #222222;
+
+    --espacamento: 20px;
+    --raio-borda: 10px;
+    --tamanho-titulo: 24px;
+    --largura-card: 300px;
+}
+
+.body{
+background-color: black;
+
+}
+.img{
+
+}
+.prato-img {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    object-fit: cover;
+}
